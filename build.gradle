@@ -47,7 +47,7 @@ tasks.withType(GroovyCompile) { options.compilerArgs << "-proc:none" }
 
 dependencies {
     compile project(':framework')
-    compile 'com.braintreepayments.gateway:braintree-java:2.73.0'
+    compile 'com.braintreepayments.gateway:braintree-java:2.86.0'
 }
 
 // by default the Java plugin runs test on build, change to not do that (only run test if explicit task)
